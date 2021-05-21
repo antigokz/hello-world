@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-  printf("Hello");
+  printf("Hello World");
   if (argc > 0) {
     int i;
     
@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
       }
     }
   }
-  printf("!\n");
+  printf(" -- from %s!\n", argv[0]);
   return 0;
 }
 
